@@ -1,0 +1,24 @@
+<!--pages/login/lgoin.wxml-->
+<view class="content"> 
+    <view class="account">
+    <view class="title">账号</view>
+    <view class="num"><input bindinput="AccountInput" placeholder="用户名/校园邮箱" placeholder-style="color:#999999"/></view>
+    </view>
+
+    <view class="hr"></view>
+    <view class="account">
+    <view class="title">密码</view>
+    <view class="num"><input bindinput="PwdInput" placeholder="请输入密码" placeholder-style="color:#999999"/></view>
+    <view class="isSee">
+    <image src="../../images/Can'tSee.png" style="width:42rpx; height:30rpx;" /><image/>
+    </view>
+    </view>
+
+    <view class="hr"></view>
+    <button class="btn" bindtap = "login" type="primary">登录</button>
+
+</view>
+
+<view >{{message}}</view>
+  
+  

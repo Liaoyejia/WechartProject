@@ -1,0 +1,6 @@
+<form action="" bindsubmit="submitData">
+  <input class="input" name="account" type="text" placeholder="请输入用户名" /> 
+  <input class="input" name="email" type="text" placeholder="请输入邮箱" /> 
+  <input class="input" name="password" type="text" password="true"  placeholder="请输入您的密码" /> 
+  <button style="margin: 30rpx auto" type="primary" form-type="submit">注册</button>
+</form>

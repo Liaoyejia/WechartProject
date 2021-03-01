@@ -1,0 +1,4 @@
+<view class="home" >
+    <button class="btn" type="primary" loading="{{loading}}" disabled="{{disabled}}" bindtap="SelfSign">自定义签到</button>
+    <button class="btn" type="primary" loading="{{loading}}" disabled="{{disabled}}" bindtap="CourseSign">课程签到</button>
+</view>

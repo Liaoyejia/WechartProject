@@ -1,0 +1,30 @@
+/* pages/sign_status/sign_status.wxss */
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color: darkgray;
+}
+.select{
+    width: 32%;
+    height:45px;
+    line-height: 45px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 13px;
+    border-bottom: 10px solid #777777;
+}
+
+.normal{
+    width: 32%;
+    height:45px;
+    line-height: 45px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 13px;
+}
+.line{
+    height: 45px;
+    line-height: 45px;
+    font-size: 25px;
+    color: #666666;
+}

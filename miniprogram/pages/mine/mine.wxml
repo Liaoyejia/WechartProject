@@ -1,0 +1,14 @@
+<!--pages/mine/mine.wxml-->
+<view class="photo">
+<button plain='true'><image src='/ico/学生.png'></image></button>
+</view>
+
+<view style='display:{{viewhidden2}}' >
+  <view class='item' bindtap='myInfomation'> 
+    <view class="title">个人信息</view>
+    <view class="detail2"> 
+      <text>></text> 
+    </view>
+  </view>
+  <view class="line"></view>
+</view>

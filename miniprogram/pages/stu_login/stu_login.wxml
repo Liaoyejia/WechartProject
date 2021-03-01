@@ -1,0 +1,33 @@
+<!--pages/login/lgoin.wxml-->
+<view class="content"> 
+    <form action="" bindsubmit="submit_Data">
+        <view class="account">
+        <view class="title">账号</view>
+        <view class="num"><input bindinput="AccountInput" placeholder="用户名/校园邮箱" placeholder-style="color:#999999;"/></view>
+    </view>
+
+    <view class="hr"></view> 
+    <view class="account">
+        <view class="title">密码</view>
+        <view class="num"><input bindinput="PwdInput" placeholder="请输入密码" placeholder-style="color:#999999;"/></view>
+    <view class="See">
+        <image src="/images/Can'tSee.png" style="width:42px; height:30px;"></image>
+    </view>
+    </view>  
+    <view class="hr"></view>
+    <button class="btn"  type="primary" form-type="submit">登录</button>
+    </form>
+   
+    <view class="operate" >
+        <view ><navigator url="../register/register">快速注册</navigator></view>
+        <view ><navigator url="../findCode/findCode">找回密码</navigator></view>
+    </view>
+
+    <view class="login">
+        <view ><image src="/images/wxlogin.png" style="width: 70px; height:98px;"></image> </view>
+    </view>
+
+</view> 
+
+  
+  
